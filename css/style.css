@@ -1,0 +1,103 @@
+
+:root{
+    --sidebar-color: #051E34;
+    
+}
+
+/* General */
+.ms_bg-color-brown{
+    background-color: brown;
+}
+.ms_bg-color-blue{
+    background-color: #1B72E8;
+}
+.ms_debug{
+    border: dashed 1px;
+    height: 100px;
+}
+
+
+/* Vertical Macro Layout */
+
+.vertical-macro-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.vertical-macro-layout__top{
+    background-color: aqua;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.vertical-macro-layout__bottom{
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+/* Horizontal Macro Layout */
+
+.horizontal-macro-layout{
+    display: flex;
+    width: 100%;
+}
+
+.sidebar{
+    width: 68px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+@media screen and (min-width:992px) {
+    .sidebar {
+        width: 150px;
+    }
+
+}
+/* Header */
+
+.main-header .navbar{
+    padding: 15px 0;
+}
+
+/* Sidebar */
+
+.sidebar{
+    padding: 34px 15px 0 24px;
+}
+
+.sidebar .nav-sidebar{
+    display: contents;
+}
+
+/* Content header */
+
+.content-header{
+    background-color: #1B72E8;
+    padding: 25px 12px;
+}
+
+
+
+.dashboard-content .content-header .fa-solid{
+    color: currentColor;
+    border: 0;
+    padding: 8px;
+    border-radius: 0;
+}
+
+
+@media screen and (min-width:576) {
+
+    .offcanvas.offcanvas-end{
+        width: 40%;
+    }
+}
+
+/* Dashboard content */
+
+.dashboard-content{
+    flex-grow: 1;
+}
