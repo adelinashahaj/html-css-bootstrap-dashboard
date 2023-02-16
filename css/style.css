@@ -92,14 +92,7 @@
     padding: 25px 12px;
 }
 
-
-
-.dashboard-content .ms_content-header {
-    color: currentColor;
-    border: 0;
-    padding: 8px;
-    border-radius: 0;
-}
+.ms_
 
 
 @media screen and (min-width:576) {
@@ -111,4 +104,13 @@
 
 .dashboard-content{
     flex-grow: 1;
+}
+.dashboard-content .ms_content-header {
+    color: currentColor;
+    border: 0;
+    padding: 8px;
+    border-radius: 0;
+}
+.ms_table-img{
+    max-width: 30px;
 }
