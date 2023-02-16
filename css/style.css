@@ -19,31 +19,31 @@
 
 /* Vertical Macro Layout */
 
-.vertical-macro-layout {
+.ms_vertical-macro-layout {
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
 
-.vertical-macro-layout__top{
+.ms_vertical-macro-layout__top{
     background-color: aqua;
     height: 70px;
     flex-shrink: 0;
 }
 
-.vertical-macro-layout__bottom{
+.ms_vertical-macro-layout__bottom{
     flex-grow: 1;
     overflow: hidden;
 }
 
 /* Horizontal Macro Layout */
 
-.horizontal-macro-layout{
+.ms_horizontal-macro-layout{
     display: flex;
     width: 100%;
 }
 
-.sidebar{
+.ms_sidebar{
     width: 68px;
     flex-shrink: 0;
     overflow: hidden;
@@ -51,37 +51,50 @@
 }
 
 @media screen and (min-width:992px) {
-    .sidebar {
+    .ms_sidebar {
         width: 150px;
+
     }
 
 }
 /* Header */
 
-.main-header .navbar{
+.ms_main-header .navbar{
     padding: 15px 0;
 }
-
+.ms_main-header .ms_mobile-logo{
+    width: 50px;
+}
+.ms_main-header .ms_desktop-logo{
+    width: 100px;
+}
 /* Sidebar */
 
-.sidebar{
-    padding: 34px 15px 0 24px;
+.ms_sidebar{
+    padding: 74px 19px 0 24px;
 }
 
-.sidebar .nav-sidebar{
+.ms_sidebar .nav-sidebar{
     display: contents;
 }
+.ms_sidebar{
+    background-color: #051E34;
+   
+}
 
+.ms_sidebar .nav-link{
+    color: white;
+}
 /* Content header */
 
-.content-header{
+.ms_content-header{
     background-color: #1B72E8;
     padding: 25px 12px;
 }
 
 
 
-.dashboard-content .content-header .fa-solid{
+.dashboard-content .ms_content-header {
     color: currentColor;
     border: 0;
     padding: 8px;
@@ -91,9 +104,7 @@
 
 @media screen and (min-width:576) {
 
-    .offcanvas.offcanvas-end{
-        width: 40%;
-    }
+    
 }
 
 /* Dashboard content */
