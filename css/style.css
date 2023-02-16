@@ -15,7 +15,9 @@
     border: dashed 1px;
     height: 100px;
 }
-
+.ms_gb-color{
+    background-color: rgb(14, 14, 113);
+}
 
 /* Vertical Macro Layout */
 
@@ -57,7 +59,7 @@
     padding: 15px 0;
 }
 .ms_main-header .ms_mobile-logo{
-    width: 50px;
+    max-width: 40px;
 }
 .ms_main-header .ms_desktop-logo{
     width: 100px;
@@ -65,7 +67,7 @@
 /* Sidebar */
 
 .ms_sidebar{
-    padding: 74px 19px 0 24px;
+    padding: 70px 19px 0 9px;
 }
 
 .ms_sidebar .nav-sidebar{
@@ -75,7 +77,6 @@
     background-color: #051E34;
    
 }
-
 .ms_sidebar .nav-link{
     color: white;
 }
@@ -86,8 +87,6 @@
     padding: 25px 12px;
 }
 /* Dashboard content */
-
-
 
 .ms_table-img{
     max-width: 30px;
