@@ -50,13 +50,7 @@
     border: 1px solid black;
 }
 
-@media screen and (min-width:992px) {
-    .ms_sidebar {
-        width: 150px;
 
-    }
-
-}
 /* Header */
 
 .ms_main-header .navbar{
@@ -91,26 +85,22 @@
     background-color: #1B72E8;
     padding: 25px 12px;
 }
-
-.ms_
-
-
-@media screen and (min-width:576) {
-
-    
-}
-
 /* Dashboard content */
 
-.dashboard-content{
-    flex-grow: 1;
-}
-.dashboard-content .ms_content-header {
-    color: currentColor;
-    border: 0;
-    padding: 8px;
-    border-radius: 0;
-}
+
+
 .ms_table-img{
     max-width: 30px;
 }
+@media screen and (min-width:576) {
+   
+}
+
+@media screen and (min-width:992px) {
+    .ms_sidebar {
+        width: 150px;
+
+    }
+
+}
+
