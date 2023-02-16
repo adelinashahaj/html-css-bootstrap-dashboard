@@ -81,8 +81,8 @@
 .ms_sidebar .nav-link{
     color: white;
 }
-.nav:hover a{
-    background-color: blanchedalmond;
+.ms_nav-item:hover a{
+    background-color: rgba(247, 240, 240, 0.1);
     
 }
 /* Content header */
